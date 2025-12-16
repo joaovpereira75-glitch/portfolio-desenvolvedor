@@ -194,33 +194,6 @@ h1 {
     margin-bottom: 50px;   
 }
 
-.formulario-contato {
-    max-width: 600px;
-    margin: 0 auto;
-    background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(5px);
-    padding: 2rem;
-    border: 1px solid var(--vidro);
-    border-radius: 16px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); 
-}
-
-.campo-form {
-    width: 100%;
-    padding: 1rem;
-    background: rgba(255, 255, 255, 0.05);
-    border-radius: 8px;
-    color: var(--claro);
-    border: 1px solid var(--vidro);
-    outline: none;
-    resize: vertical;
-}
-
-.campo-form:focus {
-    border-color: var(--secundaria);   
-    box-shadow: 0 0 0 3px rgba(70, 229, 83, 0.4);
-}
-
 .grupo-form {
     margin-bottom: 1.5rem;
 }
