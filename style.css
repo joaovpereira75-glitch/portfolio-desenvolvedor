@@ -184,15 +184,49 @@ h1 {
     color: var(--primaria);
 }
 
-.contatos {
-    padding: 6rem 2rem;
+#contatos {
+    padding: 6rem 2rem 4rem;
+    text-align: center;
 }
 
 .contatos-titulo {
-    text-align: center;
     font-size: 2.5rem;
-    margin-bottom: 50px;   
+    margin-bottom: 3rem;
+    color: var(--claro);
 }
+
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.btn-contato {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid var(--vidro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(8px);
+    transition: all 0.4s ease;
+}
+
+.btn-contato img {
+    width: 35px;
+    height: 35px;
+}
+
+.btn-contato:hover {
+    transform: translateY(-8px) scale(1.1);
+    box-shadow: 0 0 20px rgba(70, 229, 83, 0.6);
+    background: linear-gradient(135deg, var(--primaria), var(--secundaria));
+}
+
 
 .grupo-form {
     margin-bottom: 1.5rem;
@@ -230,4 +264,17 @@ h1 {
     radial-gradient(circle at 10% 20%, var(--primaria) 0%, transparent 20%),
     radial-gradient(circle at 90% 80%, var(--secundaria) 0%, transparent 20%),
     var(--maisEscuro);
+}
+
+.rodape {
+    margin-top: 4rem;
+    padding: 2rem;
+    text-align: center;
+    background: rgba(15, 42, 20, 0.9);
+    border-top: 1px solid var(--vidro);
+}
+
+.rodape footer {
+    font-size: 0.9rem;
+    color: rgba(226, 240, 227, 0.7);
 }
